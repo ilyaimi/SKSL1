@@ -1,0 +1,373 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: rgb(191, 197, 241);
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: rgb(104, 121, 246);
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo a{
+  color: #000000;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 2rem 8rem 2rem 2rem;
+}
+.search_box{
+  display: flex;
+  align-items: center;
+}
+.search_box input{
+  padding: 9px;
+  width: 250px;
+  background: rgb(228, 228, 228);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search_box i{
+  padding: 0.66rem;
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.header-icons{
+  display: flex;
+  align-items: center;
+}
+.header-icons i{
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.header-icons .account{
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-icons .account img{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Side menubar section */
+nav{
+  background: #fff;
+}
+.side_navbar{
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+}
+.side_navbar span{
+  color: #808080;
+  margin: 1rem 3rem;
+  font-size: 15px;
+}
+.side_navbar a{
+  width: 100%;
+  padding: 1rem 3rem;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(100, 100, 100);
+}
+.links{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.links a{
+  font-size: 13px;
+}
+.side_navbar a:hover{
+  background: rgba(104, 121, 246, 0.53);
+}
+.side_navbar .active{
+  border-left: 2px solid rgb(100, 100, 100);
+}
+
+/* Main Body Section */
+.main-body{
+  width: 60%;
+  padding: 1rem;
+}
+.promo_card{
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: rgb(110, 115, 122);
+}
+.promo_card h1, .promo_card span, button{
+  margin: 10px;
+}
+.promo_card button{
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.history_lists{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+table{
+  background: #fff;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+}
+table td, th{
+  padding: 0.2rem 0.9rem;
+}
+table th{
+  font-size: 15px;
+}
+table td{
+  font-size: 13px;
+  color: rgb(100, 100, 100);
+}
+
+/* Sidebar Section */
+.sidebar{
+  width: 15%;
+  padding: 2rem 1rem;
+  background: #fff;
+  margin: 45px;
+}
+.sidebar h4{
+  margin-bottom: 1.5rem;
+}
+.sidebar .balance{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.balance .icon{
+  color: #fff;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-right: 1rem;
+  padding: 1rem;
+  background: rgb(37, 37, 37);
+}
+.balance .info h5{
+  font-size: 16px;
+}
+.balance .info span{
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+}
+.balance .info i{
+  margin-right: 2px;
+}
+
+.attendance-list{
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 100%;
+  padding: 0.5rem 25rem 15rem 3rem;
+
+}
+
+.student-profile{
+  width: 80%;
+  padding: 1rem;
+}
+
+.promo_card1{
+  width: 100%;
+  color: #fff;
+  margin-top: 1px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: rgb(110, 115, 122);
+}
+
+.promo_card1 button{
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.container1 {
+  display: flex;
+  height: 100vh;
+}
+
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(110, 115, 122);
+  color: #fff;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 45px;
+}
+
+
+.check-in{
+  position: relative;
+  padding: 20px;
+  width: 70%;
+  padding: 1rem 0.5rem 13.5rem 1rem;
+}
+.check-in-top{
+  display: flex;
+  width: 100%;
+}
+.check-in-top i{
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+.check-in .users{
+  display: flex;
+  width: 85%;
+}
+.users .card{
+  width: 25%;
+  margin: 5px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 0.1px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.users .card img{
+  width: 120px;
+  height: 120px;
+  border-radius: 10%;
+}
+.users .card h4{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.users .card p{
+  font-size: 14px;
+  margin-bottom: 0.1px;
+  text-transform: uppercase;
+}
+.users table{
+  margin:  auto;
+}
+.users .per span{
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(223, 223, 223);
+}
+.users td{
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+
+
+.count-box {
+  width: 140px;
+  height: 150px;
+  background-color: #ffff;
+  border: 1px #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.grade3-list{
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 100%;
+  padding: 0.5rem 25rem 8rem 3rem;
+
+}
+
+.student-profile .card {
+  border-radius: 10px;
+  background: rgb(191, 197, 241);
+}
+
+.student-profile .card .card-header .profile_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 10px solid rgb(110, 115, 122);
+  border-radius: 50%;
+
+}
+
+.student-profile .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.student-profile .card p {
+  font-size: 16px;
+  color: rgb(12, 12, 13);
+}
+
+.student-profile .table th,
+.student-profile .table td {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #000;
+}

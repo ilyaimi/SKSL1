@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>School Monitoring System</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+   <!-- Navbar -->
+  <header class="header">
+    <div class="logo">
+      <i class="fas fa-school icon"></i>
+      <a href="#">SK Seri Laut 1</a>
+      <div class="search_box">
+        <input type="text" placeholder="Search">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div class="header-icons">
+      <i class="fas fa-bell"></i>
+      <div class="account">
+        
+        <h4>Sign out</h4>
+        <i class="fas fa-sign-out-alt"></i>
+
+      </div>
+    </div>
+    <!-- End Navbar -->
+  </header>
+  <div class="container">
+    <nav>
+      <div class="side_navbar">
+        <span>Main Menu</span>
+        <a href="./dashboard.html" onclick="redirectToPage('./dashboard.html')">Dashboard</a>
+        <a href="./check-in.html" onclick="redirectToPage('./check-in.html')">Arrival</a>
+        <a href="./attendance-log.html" onclick="redirectToPage('./attendance-log.html')">Attendance Log</a>
+        <a href="./student-profile.html" onclick="redirectToPage('./student-profile.html')">Student Profile</a>
+
+        <script src="script.js"></script>
+
+        <div class="links">
+        </div>
+        </div>
+    </nav>
+    <!-- End Side Navbar -->
+    
+
+    
+    <div class="main-body">
+      <h2>Overview</h2>
+      <div class="promo_card">
+        <h1>Drive-Through Monitoring System</h1>
+        <span>With card-based authentication for parents who use private transportation, school</span>
+        <span>can manage before and after school time activities for their students, maximizing</span>
+        <span>management efficiency while ensuring students' safety.</span>
+      </div>
+
+      <div class="history_lists">
+        <div class="list1">
+          <div class="row">
+            <h4>Student Data</h4>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Grade</th>
+          
+                <th>No. of Student</th>
+                <th>Registered RFID</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+              
+                <td>10</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>2</td>
+               
+                <td>10</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>3</td>
+               
+                <td>10</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>4</td>
+               
+                <td>10</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                
+                <td>10</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>6</td>
+             
+                <td>10</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>Total =</td>
+                <td>60</td>
+                <td>18</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="list2">
+          <div class="row">
+            <h4>School Transportation Mode</h4>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Mode of Vehicle</th>
+                <th>No. of Student</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Motocar</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Motorcycle</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Bus</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>On Foot</td>
+                <td>14</td>
+              </tr> 
+              <tr>
+                <td>5</td>
+                <td>Bicycle</td>
+                <td>15</td>
+              </tr> 
+              
+              </tr> 
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <h4>Assist Teacher of The Week</h4>
+      
+      <div class="balance">
+        <i class="fas fa-grin icon"></i>
+        <div class="info">
+          <h5>Sunday</h5>
+          </i>Mr Amin</span>
+        </div>
+      </div>
+      
+      <div class="balance">
+        <i class="fas fa-grin-beam-sweat icon"></i>
+        <div class="info">
+          <h5>Monday</h5>
+          </i>Miss Diana</span>
+        </div>
+      </div>
+
+      <div class="balance">
+        <i class="fas fa-grin-beam icon"></i>
+        <div class="info">
+          <h5>Tuesday</h5>
+          </i>Mr Faiz</span>
+        </div>
+      </div>
+
+      <div class="balance">
+        <i class="fas fa-grin-hearts icon"></i>
+        <div class="info">
+          <h5>Wednesday</h5>
+          </i>Mrs Aisyah</span>
+        </div>
+      </div>
+
+      <div class="balance">
+        <i class="fas fa-grin-stars icon"></i>
+        <div class="info">
+          <h5>Thursday</h5>
+          </i>Mr Zaihan</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
